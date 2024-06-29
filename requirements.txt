@@ -1,0 +1,5 @@
+streamlit
+pyautogen
+Django
+djangorestframework
+python-dotenv
