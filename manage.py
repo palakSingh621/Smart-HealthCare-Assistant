@@ -7,7 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault(
-        "DJANGO_SETTINGS_MODULE", "Smart_HealthCare_Assistant.settings"
+        "DJANGO_SETTINGS_MODULE", "health_assistant.settings"
     )
     try:
         from django.core.management import execute_from_command_line
