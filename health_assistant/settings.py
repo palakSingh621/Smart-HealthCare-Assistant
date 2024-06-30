@@ -55,8 +55,6 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ["*"]
-
 ROOT_URLCONF = 'health_assistant.urls'
 
 TEMPLATES = [
